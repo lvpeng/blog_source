@@ -1,0 +1,653 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/bin/nodejs',
+1 verbose cli   '/usr/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   'hexo-deployer-heroku',
+1 verbose cli   '--save' ]
+2 info using npm@1.4.21
+3 info using node@v0.10.25
+4 verbose readDependencies using package.json deps
+5 verbose cache add [ 'hexo-deployer-heroku', null ]
+6 verbose cache add name=undefined spec="hexo-deployer-heroku" args=["hexo-deployer-heroku",null]
+7 verbose parsed url { protocol: null,
+7 verbose parsed url   slashes: null,
+7 verbose parsed url   auth: null,
+7 verbose parsed url   host: null,
+7 verbose parsed url   port: null,
+7 verbose parsed url   hostname: null,
+7 verbose parsed url   hash: null,
+7 verbose parsed url   search: null,
+7 verbose parsed url   query: null,
+7 verbose parsed url   pathname: 'hexo-deployer-heroku',
+7 verbose parsed url   path: 'hexo-deployer-heroku',
+7 verbose parsed url   href: 'hexo-deployer-heroku' }
+8 silly lockFile 3b9bff29-hexo-deployer-heroku hexo-deployer-heroku
+9 verbose lock hexo-deployer-heroku /home/peng/.npm/3b9bff29-hexo-deployer-heroku.lock
+10 silly lockFile 3b9bff29-hexo-deployer-heroku hexo-deployer-heroku
+11 silly lockFile 3b9bff29-hexo-deployer-heroku hexo-deployer-heroku
+12 verbose addNamed [ 'hexo-deployer-heroku', '' ]
+13 verbose addNamed [ null, '*' ]
+14 silly lockFile ab9a626c-hexo-deployer-heroku hexo-deployer-heroku@
+15 verbose lock hexo-deployer-heroku@ /home/peng/.npm/ab9a626c-hexo-deployer-heroku.lock
+16 silly addNameRange { name: 'hexo-deployer-heroku', range: '*', hasData: false }
+17 verbose request where is /hexo-deployer-heroku
+18 verbose request registry https://registry.npmjs.org/
+19 verbose request id 42b2a3bdff7c20dc
+20 verbose url raw /hexo-deployer-heroku
+21 verbose url resolving [ 'https://registry.npmjs.org/', './hexo-deployer-heroku' ]
+22 verbose url resolved https://registry.npmjs.org/hexo-deployer-heroku
+23 verbose request where is https://registry.npmjs.org/hexo-deployer-heroku
+24 info trying registry request attempt 1 at 15:15:00
+25 http GET https://registry.npmjs.org/hexo-deployer-heroku
+26 http 200 https://registry.npmjs.org/hexo-deployer-heroku
+27 silly registry.get cb [ 200,
+27 silly registry.get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+27 silly registry.get     etag: '"9PGAGDM72XKLD7TNJBUE3Q4ZG"',
+27 silly registry.get     'content-type': 'application/json',
+27 silly registry.get     'cache-control': 'max-age=300',
+27 silly registry.get     'content-length': '4728',
+27 silly registry.get     'accept-ranges': 'bytes',
+27 silly registry.get     date: 'Wed, 13 Jan 2016 07:15:04 GMT',
+27 silly registry.get     via: '1.1 varnish',
+27 silly registry.get     age: '0',
+27 silly registry.get     connection: 'keep-alive',
+27 silly registry.get     'x-served-by': 'cache-itm7422-ITM',
+27 silly registry.get     'x-cache': 'MISS',
+27 silly registry.get     'x-cache-hits': '0',
+27 silly registry.get     'x-timer': 'S1452669303.828873,VS0,VE800',
+27 silly registry.get     vary: 'Accept' } ]
+28 silly addNameRange number 2 { name: 'hexo-deployer-heroku', range: '*', hasData: true }
+29 silly addNameRange versions [ 'hexo-deployer-heroku', [ '0.0.1', '0.0.3' ] ]
+30 verbose addNamed [ 'hexo-deployer-heroku', '0.0.3' ]
+31 verbose addNamed [ '0.0.3', '0.0.3' ]
+32 silly lockFile 27cf071d-hexo-deployer-heroku-0-0-3 hexo-deployer-heroku@0.0.3
+33 verbose lock hexo-deployer-heroku@0.0.3 /home/peng/.npm/27cf071d-hexo-deployer-heroku-0-0-3.lock
+34 silly lockFile 41086f6c-u-hexo-deployer-heroku-0-0-3-tgz https://registry.npmjs.org/hexo-deployer-heroku/-/hexo-deployer-heroku-0.0.3.tgz
+35 verbose lock https://registry.npmjs.org/hexo-deployer-heroku/-/hexo-deployer-heroku-0.0.3.tgz /home/peng/.npm/41086f6c-u-hexo-deployer-heroku-0-0-3-tgz.lock
+36 verbose addRemoteTarball [ 'https://registry.npmjs.org/hexo-deployer-heroku/-/hexo-deployer-heroku-0.0.3.tgz',
+36 verbose addRemoteTarball   '3abe17999110da017e732ce2b4fa388f0d55e192' ]
+37 info retry fetch attempt 1 at 15:15:04
+38 verbose fetch to= /tmp/npm-24170-jYPZohrU/registry.npmjs.org/hexo-deployer-heroku/-/hexo-deployer-heroku-0.0.3.tgz
+39 http GET https://registry.npmjs.org/hexo-deployer-heroku/-/hexo-deployer-heroku-0.0.3.tgz
+40 http 200 https://registry.npmjs.org/hexo-deployer-heroku/-/hexo-deployer-heroku-0.0.3.tgz
+41 silly lockFile 41086f6c-u-hexo-deployer-heroku-0-0-3-tgz https://registry.npmjs.org/hexo-deployer-heroku/-/hexo-deployer-heroku-0.0.3.tgz
+42 silly lockFile 41086f6c-u-hexo-deployer-heroku-0-0-3-tgz https://registry.npmjs.org/hexo-deployer-heroku/-/hexo-deployer-heroku-0.0.3.tgz
+43 silly lockFile 27cf071d-hexo-deployer-heroku-0-0-3 hexo-deployer-heroku@0.0.3
+44 silly lockFile 27cf071d-hexo-deployer-heroku-0-0-3 hexo-deployer-heroku@0.0.3
+45 silly lockFile ab9a626c-hexo-deployer-heroku hexo-deployer-heroku@
+46 silly lockFile ab9a626c-hexo-deployer-heroku hexo-deployer-heroku@
+47 silly resolved [ { name: 'hexo-deployer-heroku',
+47 silly resolved     version: '0.0.3',
+47 silly resolved     description: 'Heroku deployer plugin of Hexo.',
+47 silly resolved     main: 'index',
+47 silly resolved     scripts: { test: 'gulp test' },
+47 silly resolved     directories: { lib: './lib' },
+47 silly resolved     engines: { node: '>= 0.10.0' },
+47 silly resolved     repository:
+47 silly resolved      { type: 'git',
+47 silly resolved        url: 'https://github.com/hexojs/hexo-deployer-heroku' },
+47 silly resolved     homepage: 'http://hexo.io/',
+47 silly resolved     keywords: [ 'hexo', 'heroku', 'deploy', 'deployer' ],
+47 silly resolved     author:
+47 silly resolved      { name: 'Tommy Chen',
+47 silly resolved        email: 'tommy351@gmail.com',
+47 silly resolved        url: 'http://zespia.tw' },
+47 silly resolved     license: 'MIT',
+47 silly resolved     devDependencies:
+47 silly resolved      { bluebird: '^2.9.1',
+47 silly resolved        chai: '^1.9.1',
+47 silly resolved        coveralls: '^2.11.2',
+47 silly resolved        gulp: '^3.8.9',
+47 silly resolved        'gulp-istanbul': '^0.5.0',
+47 silly resolved        'gulp-jshint': '^1.8.6',
+47 silly resolved        'gulp-load-plugins': '^0.8.0',
+47 silly resolved        'gulp-mocha': '^2.0.0',
+47 silly resolved        'jshint-stylish': '^1.0.0',
+47 silly resolved        mocha: '^2.0.1',
+47 silly resolved        rimraf: '^2.2.8' },
+47 silly resolved     dependencies:
+47 silly resolved      { chalk: '^0.5.1',
+47 silly resolved        'hexo-fs': '^0.1.0',
+47 silly resolved        'hexo-util': '^0.1.0',
+47 silly resolved        moment: '^2.9.0',
+47 silly resolved        swig: '^1.4.2' },
+47 silly resolved     gitHead: '3f3e0c2357d0baabc0b4db7cec00799ad9e6accf',
+47 silly resolved     bugs: { url: 'https://github.com/hexojs/hexo-deployer-heroku/issues' },
+47 silly resolved     _id: 'hexo-deployer-heroku@0.0.3',
+47 silly resolved     _shasum: '3abe17999110da017e732ce2b4fa388f0d55e192',
+47 silly resolved     _from: 'hexo-deployer-heroku@',
+47 silly resolved     _npmVersion: '2.2.0',
+47 silly resolved     _nodeVersion: '0.10.35',
+47 silly resolved     _npmUser: { name: 'tommy351', email: 'tommy351@gmail.com' },
+47 silly resolved     maintainers: [ [Object] ],
+47 silly resolved     dist:
+47 silly resolved      { shasum: '3abe17999110da017e732ce2b4fa388f0d55e192',
+47 silly resolved        tarball: 'http://registry.npmjs.org/hexo-deployer-heroku/-/hexo-deployer-heroku-0.0.3.tgz' },
+47 silly resolved     _resolved: 'https://registry.npmjs.org/hexo-deployer-heroku/-/hexo-deployer-heroku-0.0.3.tgz' } ]
+48 info install hexo-deployer-heroku@0.0.3 into /home/peng/Blog
+49 info installOne hexo-deployer-heroku@0.0.3
+50 verbose node_modules/hexo-deployer-heroku unbuild
+51 verbose tar unpack /home/peng/.npm/hexo-deployer-heroku/0.0.3/package.tgz
+52 silly lockFile 6907f2d3-ode-modules-hexo-deployer-heroku tar:///home/peng/Blog/node_modules/hexo-deployer-heroku
+53 verbose lock tar:///home/peng/Blog/node_modules/hexo-deployer-heroku /home/peng/.npm/6907f2d3-ode-modules-hexo-deployer-heroku.lock
+54 silly lockFile 0c8ebdf8-eployer-heroku-0-0-3-package-tgz tar:///home/peng/.npm/hexo-deployer-heroku/0.0.3/package.tgz
+55 verbose lock tar:///home/peng/.npm/hexo-deployer-heroku/0.0.3/package.tgz /home/peng/.npm/0c8ebdf8-eployer-heroku-0-0-3-package-tgz.lock
+56 silly gunzTarPerm modes [ '775', '664' ]
+57 silly gunzTarPerm extractEntry package.json
+58 silly gunzTarPerm modified mode [ 'package.json', 420, 436 ]
+59 silly gunzTarPerm extractEntry .npmignore
+60 silly gunzTarPerm modified mode [ '.npmignore', 420, 436 ]
+61 silly gunzTarPerm extractEntry README.md
+62 silly gunzTarPerm modified mode [ 'README.md', 420, 436 ]
+63 silly gunzTarPerm extractEntry LICENSE
+64 silly gunzTarPerm modified mode [ 'LICENSE', 438, 436 ]
+65 silly gunzTarPerm extractEntry index.js
+66 silly gunzTarPerm modified mode [ 'index.js', 420, 436 ]
+67 silly gunzTarPerm extractEntry assets/package.json
+68 silly gunzTarPerm modified mode [ 'assets/package.json', 420, 436 ]
+69 silly gunzTarPerm extractEntry lib/deployer.js
+70 silly gunzTarPerm modified mode [ 'lib/deployer.js', 420, 436 ]
+71 silly lockFile 6907f2d3-ode-modules-hexo-deployer-heroku tar:///home/peng/Blog/node_modules/hexo-deployer-heroku
+72 silly lockFile 6907f2d3-ode-modules-hexo-deployer-heroku tar:///home/peng/Blog/node_modules/hexo-deployer-heroku
+73 silly lockFile 0c8ebdf8-eployer-heroku-0-0-3-package-tgz tar:///home/peng/.npm/hexo-deployer-heroku/0.0.3/package.tgz
+74 silly lockFile 0c8ebdf8-eployer-heroku-0-0-3-package-tgz tar:///home/peng/.npm/hexo-deployer-heroku/0.0.3/package.tgz
+75 info preinstall hexo-deployer-heroku@0.0.3
+76 verbose readDependencies using package.json deps
+77 verbose readDependencies using package.json deps
+78 verbose cache add [ 'chalk@^0.5.1', null ]
+79 verbose cache add name=undefined spec="chalk@^0.5.1" args=["chalk@^0.5.1",null]
+80 verbose parsed url { protocol: null,
+80 verbose parsed url   slashes: null,
+80 verbose parsed url   auth: null,
+80 verbose parsed url   host: null,
+80 verbose parsed url   port: null,
+80 verbose parsed url   hostname: null,
+80 verbose parsed url   hash: null,
+80 verbose parsed url   search: null,
+80 verbose parsed url   query: null,
+80 verbose parsed url   pathname: 'chalk@^0.5.1',
+80 verbose parsed url   path: 'chalk@^0.5.1',
+80 verbose parsed url   href: 'chalk@^0.5.1' }
+81 verbose cache add [ 'hexo-fs@^0.1.0', null ]
+82 verbose cache add name=undefined spec="hexo-fs@^0.1.0" args=["hexo-fs@^0.1.0",null]
+83 verbose parsed url { protocol: null,
+83 verbose parsed url   slashes: null,
+83 verbose parsed url   auth: null,
+83 verbose parsed url   host: null,
+83 verbose parsed url   port: null,
+83 verbose parsed url   hostname: null,
+83 verbose parsed url   hash: null,
+83 verbose parsed url   search: null,
+83 verbose parsed url   query: null,
+83 verbose parsed url   pathname: 'hexo-fs@^0.1.0',
+83 verbose parsed url   path: 'hexo-fs@^0.1.0',
+83 verbose parsed url   href: 'hexo-fs@^0.1.0' }
+84 verbose cache add name="chalk" spec="^0.5.1" args=["chalk","^0.5.1"]
+85 verbose parsed url { protocol: null,
+85 verbose parsed url   slashes: null,
+85 verbose parsed url   auth: null,
+85 verbose parsed url   host: null,
+85 verbose parsed url   port: null,
+85 verbose parsed url   hostname: null,
+85 verbose parsed url   hash: null,
+85 verbose parsed url   search: null,
+85 verbose parsed url   query: null,
+85 verbose parsed url   pathname: '^0.5.1',
+85 verbose parsed url   path: '^0.5.1',
+85 verbose parsed url   href: '^0.5.1' }
+86 verbose addNamed [ 'chalk', '^0.5.1' ]
+87 verbose addNamed [ null, '>=0.5.1-0 <0.6.0-0' ]
+88 silly lockFile 24b6c7c3-chalk-0-5-1 chalk@^0.5.1
+89 verbose lock chalk@^0.5.1 /home/peng/.npm/24b6c7c3-chalk-0-5-1.lock
+90 verbose cache add [ 'hexo-util@^0.1.0', null ]
+91 verbose cache add name=undefined spec="hexo-util@^0.1.0" args=["hexo-util@^0.1.0",null]
+92 verbose parsed url { protocol: null,
+92 verbose parsed url   slashes: null,
+92 verbose parsed url   auth: null,
+92 verbose parsed url   host: null,
+92 verbose parsed url   port: null,
+92 verbose parsed url   hostname: null,
+92 verbose parsed url   hash: null,
+92 verbose parsed url   search: null,
+92 verbose parsed url   query: null,
+92 verbose parsed url   pathname: 'hexo-util@^0.1.0',
+92 verbose parsed url   path: 'hexo-util@^0.1.0',
+92 verbose parsed url   href: 'hexo-util@^0.1.0' }
+93 verbose cache add [ 'moment@^2.9.0', null ]
+94 verbose cache add name=undefined spec="moment@^2.9.0" args=["moment@^2.9.0",null]
+95 verbose parsed url { protocol: null,
+95 verbose parsed url   slashes: null,
+95 verbose parsed url   auth: null,
+95 verbose parsed url   host: null,
+95 verbose parsed url   port: null,
+95 verbose parsed url   hostname: null,
+95 verbose parsed url   hash: null,
+95 verbose parsed url   search: null,
+95 verbose parsed url   query: null,
+95 verbose parsed url   pathname: 'moment@^2.9.0',
+95 verbose parsed url   path: 'moment@^2.9.0',
+95 verbose parsed url   href: 'moment@^2.9.0' }
+96 verbose cache add name="hexo-fs" spec="^0.1.0" args=["hexo-fs","^0.1.0"]
+97 verbose parsed url { protocol: null,
+97 verbose parsed url   slashes: null,
+97 verbose parsed url   auth: null,
+97 verbose parsed url   host: null,
+97 verbose parsed url   port: null,
+97 verbose parsed url   hostname: null,
+97 verbose parsed url   hash: null,
+97 verbose parsed url   search: null,
+97 verbose parsed url   query: null,
+97 verbose parsed url   pathname: '^0.1.0',
+97 verbose parsed url   path: '^0.1.0',
+97 verbose parsed url   href: '^0.1.0' }
+98 verbose addNamed [ 'hexo-fs', '^0.1.0' ]
+99 verbose addNamed [ null, '>=0.1.0-0 <0.2.0-0' ]
+100 silly lockFile 62adf463-hexo-fs-0-1-0 hexo-fs@^0.1.0
+101 verbose lock hexo-fs@^0.1.0 /home/peng/.npm/62adf463-hexo-fs-0-1-0.lock
+102 verbose cache add name="hexo-util" spec="^0.1.0" args=["hexo-util","^0.1.0"]
+103 verbose parsed url { protocol: null,
+103 verbose parsed url   slashes: null,
+103 verbose parsed url   auth: null,
+103 verbose parsed url   host: null,
+103 verbose parsed url   port: null,
+103 verbose parsed url   hostname: null,
+103 verbose parsed url   hash: null,
+103 verbose parsed url   search: null,
+103 verbose parsed url   query: null,
+103 verbose parsed url   pathname: '^0.1.0',
+103 verbose parsed url   path: '^0.1.0',
+103 verbose parsed url   href: '^0.1.0' }
+104 verbose addNamed [ 'hexo-util', '^0.1.0' ]
+105 verbose addNamed [ null, '>=0.1.0-0 <0.2.0-0' ]
+106 silly lockFile 33d57dc2-hexo-util-0-1-0 hexo-util@^0.1.0
+107 verbose lock hexo-util@^0.1.0 /home/peng/.npm/33d57dc2-hexo-util-0-1-0.lock
+108 verbose cache add [ 'swig@^1.4.2', null ]
+109 verbose cache add name=undefined spec="swig@^1.4.2" args=["swig@^1.4.2",null]
+110 verbose parsed url { protocol: null,
+110 verbose parsed url   slashes: null,
+110 verbose parsed url   auth: null,
+110 verbose parsed url   host: null,
+110 verbose parsed url   port: null,
+110 verbose parsed url   hostname: null,
+110 verbose parsed url   hash: null,
+110 verbose parsed url   search: null,
+110 verbose parsed url   query: null,
+110 verbose parsed url   pathname: 'swig@^1.4.2',
+110 verbose parsed url   path: 'swig@^1.4.2',
+110 verbose parsed url   href: 'swig@^1.4.2' }
+111 verbose cache add name="moment" spec="^2.9.0" args=["moment","^2.9.0"]
+112 verbose parsed url { protocol: null,
+112 verbose parsed url   slashes: null,
+112 verbose parsed url   auth: null,
+112 verbose parsed url   host: null,
+112 verbose parsed url   port: null,
+112 verbose parsed url   hostname: null,
+112 verbose parsed url   hash: null,
+112 verbose parsed url   search: null,
+112 verbose parsed url   query: null,
+112 verbose parsed url   pathname: '^2.9.0',
+112 verbose parsed url   path: '^2.9.0',
+112 verbose parsed url   href: '^2.9.0' }
+113 verbose addNamed [ 'moment', '^2.9.0' ]
+114 verbose addNamed [ null, '>=2.9.0-0 <3.0.0-0' ]
+115 silly lockFile 626a7352-moment-2-9-0 moment@^2.9.0
+116 verbose lock moment@^2.9.0 /home/peng/.npm/626a7352-moment-2-9-0.lock
+117 silly addNameRange { name: 'chalk', range: '>=0.5.1-0 <0.6.0-0', hasData: false }
+118 verbose cache add name="swig" spec="^1.4.2" args=["swig","^1.4.2"]
+119 verbose parsed url { protocol: null,
+119 verbose parsed url   slashes: null,
+119 verbose parsed url   auth: null,
+119 verbose parsed url   host: null,
+119 verbose parsed url   port: null,
+119 verbose parsed url   hostname: null,
+119 verbose parsed url   hash: null,
+119 verbose parsed url   search: null,
+119 verbose parsed url   query: null,
+119 verbose parsed url   pathname: '^1.4.2',
+119 verbose parsed url   path: '^1.4.2',
+119 verbose parsed url   href: '^1.4.2' }
+120 verbose addNamed [ 'swig', '^1.4.2' ]
+121 verbose addNamed [ null, '>=1.4.2-0 <2.0.0-0' ]
+122 silly lockFile e3bb3c1a-swig-1-4-2 swig@^1.4.2
+123 verbose lock swig@^1.4.2 /home/peng/.npm/e3bb3c1a-swig-1-4-2.lock
+124 silly addNameRange { name: 'hexo-fs', range: '>=0.1.0-0 <0.2.0-0', hasData: false }
+125 silly addNameRange { name: 'hexo-util',
+125 silly addNameRange   range: '>=0.1.0-0 <0.2.0-0',
+125 silly addNameRange   hasData: false }
+126 silly addNameRange { name: 'moment', range: '>=2.9.0-0 <3.0.0-0', hasData: false }
+127 silly addNameRange { name: 'swig', range: '>=1.4.2-0 <2.0.0-0', hasData: false }
+128 verbose request where is /chalk
+129 verbose request registry https://registry.npmjs.org/
+130 verbose url raw /chalk
+131 verbose url resolving [ 'https://registry.npmjs.org/', './chalk' ]
+132 verbose url resolved https://registry.npmjs.org/chalk
+133 verbose request where is https://registry.npmjs.org/chalk
+134 info trying registry request attempt 1 at 15:15:05
+135 verbose etag "92BRVILSUN3GR7LIY7UTZ9BVW"
+136 http GET https://registry.npmjs.org/chalk
+137 verbose request where is /hexo-fs
+138 verbose request registry https://registry.npmjs.org/
+139 verbose url raw /hexo-fs
+140 verbose url resolving [ 'https://registry.npmjs.org/', './hexo-fs' ]
+141 verbose url resolved https://registry.npmjs.org/hexo-fs
+142 verbose request where is https://registry.npmjs.org/hexo-fs
+143 info trying registry request attempt 1 at 15:15:05
+144 verbose etag "7MFKZP06F27LZ7ZV92P611Q98"
+145 http GET https://registry.npmjs.org/hexo-fs
+146 verbose request where is /hexo-util
+147 verbose request registry https://registry.npmjs.org/
+148 verbose url raw /hexo-util
+149 verbose url resolving [ 'https://registry.npmjs.org/', './hexo-util' ]
+150 verbose url resolved https://registry.npmjs.org/hexo-util
+151 verbose request where is https://registry.npmjs.org/hexo-util
+152 info trying registry request attempt 1 at 15:15:05
+153 verbose etag "6F4TLCJ2IZPLD01GH44CXG00X"
+154 http GET https://registry.npmjs.org/hexo-util
+155 verbose request where is /moment
+156 verbose request registry https://registry.npmjs.org/
+157 verbose url raw /moment
+158 verbose url resolving [ 'https://registry.npmjs.org/', './moment' ]
+159 verbose url resolved https://registry.npmjs.org/moment
+160 verbose request where is https://registry.npmjs.org/moment
+161 info trying registry request attempt 1 at 15:15:05
+162 verbose etag "EM3ZHT7I4M2TSUPKL5PP81Z5W"
+163 http GET https://registry.npmjs.org/moment
+164 verbose request where is /swig
+165 verbose request registry https://registry.npmjs.org/
+166 verbose url raw /swig
+167 verbose url resolving [ 'https://registry.npmjs.org/', './swig' ]
+168 verbose url resolved https://registry.npmjs.org/swig
+169 verbose request where is https://registry.npmjs.org/swig
+170 info trying registry request attempt 1 at 15:15:05
+171 verbose etag "6VVDIUB7KW4J3J8NZZTNE4JKG"
+172 http GET https://registry.npmjs.org/swig
+173 http 304 https://registry.npmjs.org/hexo-fs
+174 silly registry.get cb [ 304,
+174 silly registry.get   { date: 'Wed, 13 Jan 2016 07:15:06 GMT',
+174 silly registry.get     via: '1.1 varnish',
+174 silly registry.get     'cache-control': 'max-age=300',
+174 silly registry.get     etag: '"7MFKZP06F27LZ7ZV92P611Q98"',
+174 silly registry.get     age: '239',
+174 silly registry.get     connection: 'keep-alive',
+174 silly registry.get     'x-served-by': 'cache-itm7422-ITM',
+174 silly registry.get     'x-cache': 'HIT',
+174 silly registry.get     'x-cache-hits': '1',
+174 silly registry.get     'x-timer': 'S1452669306.036708,VS0,VE0',
+174 silly registry.get     vary: 'Accept' } ]
+175 verbose etag https://registry.npmjs.org/hexo-fs from cache
+176 silly addNameRange number 2 { name: 'hexo-fs', range: '>=0.1.0-0 <0.2.0-0', hasData: true }
+177 silly addNameRange versions [ 'hexo-fs',
+177 silly addNameRange   [ '0.0.1',
+177 silly addNameRange     '0.0.2',
+177 silly addNameRange     '0.0.3',
+177 silly addNameRange     '0.0.4',
+177 silly addNameRange     '0.0.5',
+177 silly addNameRange     '0.0.6',
+177 silly addNameRange     '0.0.7',
+177 silly addNameRange     '0.0.8',
+177 silly addNameRange     '0.1.0',
+177 silly addNameRange     '0.1.1',
+177 silly addNameRange     '0.1.2',
+177 silly addNameRange     '0.1.3',
+177 silly addNameRange     '0.1.4',
+177 silly addNameRange     '0.1.5' ] ]
+178 verbose addNamed [ 'hexo-fs', '0.1.5' ]
+179 verbose addNamed [ '0.1.5', '0.1.5' ]
+180 silly lockFile f5c42b15-hexo-fs-0-1-5 hexo-fs@0.1.5
+181 verbose lock hexo-fs@0.1.5 /home/peng/.npm/f5c42b15-hexo-fs-0-1-5.lock
+182 http 304 https://registry.npmjs.org/hexo-util
+183 silly registry.get cb [ 304,
+183 silly registry.get   { date: 'Wed, 13 Jan 2016 07:15:06 GMT',
+183 silly registry.get     via: '1.1 varnish',
+183 silly registry.get     'cache-control': 'max-age=300',
+183 silly registry.get     etag: '"6F4TLCJ2IZPLD01GH44CXG00X"',
+183 silly registry.get     age: '239',
+183 silly registry.get     connection: 'keep-alive',
+183 silly registry.get     'x-served-by': 'cache-itm7427-ITM',
+183 silly registry.get     'x-cache': 'HIT',
+183 silly registry.get     'x-cache-hits': '1',
+183 silly registry.get     'x-timer': 'S1452669306.050593,VS0,VE0',
+183 silly registry.get     vary: 'Accept' } ]
+184 verbose etag https://registry.npmjs.org/hexo-util from cache
+185 silly addNameRange number 2 { name: 'hexo-util', range: '>=0.1.0-0 <0.2.0-0', hasData: true }
+186 silly addNameRange versions [ 'hexo-util',
+186 silly addNameRange   [ '0.0.1',
+186 silly addNameRange     '0.0.2',
+186 silly addNameRange     '0.1.0',
+186 silly addNameRange     '0.1.1',
+186 silly addNameRange     '0.1.2',
+186 silly addNameRange     '0.1.3',
+186 silly addNameRange     '0.1.4',
+186 silly addNameRange     '0.1.5',
+186 silly addNameRange     '0.1.6',
+186 silly addNameRange     '0.1.7',
+186 silly addNameRange     '0.2.0',
+186 silly addNameRange     '0.2.1',
+186 silly addNameRange     '0.3.0',
+186 silly addNameRange     '0.4.0',
+186 silly addNameRange     '0.4.1',
+186 silly addNameRange     '0.5.0',
+186 silly addNameRange     '0.5.1' ] ]
+187 verbose addNamed [ 'hexo-util', '0.1.7' ]
+188 verbose addNamed [ '0.1.7', '0.1.7' ]
+189 silly lockFile 278ec932-hexo-util-0-1-7 hexo-util@0.1.7
+190 verbose lock hexo-util@0.1.7 /home/peng/.npm/278ec932-hexo-util-0-1-7.lock
+191 silly lockFile f5c42b15-hexo-fs-0-1-5 hexo-fs@0.1.5
+192 silly lockFile f5c42b15-hexo-fs-0-1-5 hexo-fs@0.1.5
+193 silly lockFile 62adf463-hexo-fs-0-1-0 hexo-fs@^0.1.0
+194 silly lockFile 62adf463-hexo-fs-0-1-0 hexo-fs@^0.1.0
+195 http 304 https://registry.npmjs.org/swig
+196 silly registry.get cb [ 304,
+196 silly registry.get   { date: 'Wed, 13 Jan 2016 07:15:06 GMT',
+196 silly registry.get     via: '1.1 varnish',
+196 silly registry.get     'cache-control': 'max-age=300',
+196 silly registry.get     etag: '"6VVDIUB7KW4J3J8NZZTNE4JKG"',
+196 silly registry.get     age: '239',
+196 silly registry.get     connection: 'keep-alive',
+196 silly registry.get     'x-served-by': 'cache-itm7424-ITM',
+196 silly registry.get     'x-cache': 'HIT',
+196 silly registry.get     'x-cache-hits': '1',
+196 silly registry.get     'x-timer': 'S1452669306.093633,VS0,VE0',
+196 silly registry.get     vary: 'Accept' } ]
+197 verbose etag https://registry.npmjs.org/swig from cache
+198 silly lockFile 278ec932-hexo-util-0-1-7 hexo-util@0.1.7
+199 silly lockFile 278ec932-hexo-util-0-1-7 hexo-util@0.1.7
+200 silly lockFile 33d57dc2-hexo-util-0-1-0 hexo-util@^0.1.0
+201 silly lockFile 33d57dc2-hexo-util-0-1-0 hexo-util@^0.1.0
+202 silly addNameRange number 2 { name: 'swig', range: '>=1.4.2-0 <2.0.0-0', hasData: true }
+203 silly addNameRange versions [ 'swig',
+203 silly addNameRange   [ '0.1.1',
+203 silly addNameRange     '0.1.2',
+203 silly addNameRange     '0.1.3',
+203 silly addNameRange     '0.1.5',
+203 silly addNameRange     '0.1.6',
+203 silly addNameRange     '0.1.7',
+203 silly addNameRange     '0.1.8',
+203 silly addNameRange     '0.1.9',
+203 silly addNameRange     '0.2.0',
+203 silly addNameRange     '0.2.1',
+203 silly addNameRange     '0.2.2',
+203 silly addNameRange     '0.2.3',
+203 silly addNameRange     '0.3.0',
+203 silly addNameRange     '0.4.0',
+203 silly addNameRange     '0.5.0',
+203 silly addNameRange     '0.6.0',
+203 silly addNameRange     '0.6.1',
+203 silly addNameRange     '0.7.0',
+203 silly addNameRange     '0.8.0',
+203 silly addNameRange     '0.9.0',
+203 silly addNameRange     '0.9.1',
+203 silly addNameRange     '0.9.2',
+203 silly addNameRange     '0.9.3',
+203 silly addNameRange     '0.9.4',
+203 silly addNameRange     '0.10.0',
+203 silly addNameRange     '0.11.0',
+203 silly addNameRange     '0.11.1',
+203 silly addNameRange     '0.11.2',
+203 silly addNameRange     '0.12.0',
+203 silly addNameRange     '0.12.1',
+203 silly addNameRange     '0.13.0',
+203 silly addNameRange     '0.13.1',
+203 silly addNameRange     '0.13.2',
+203 silly addNameRange     '0.13.3',
+203 silly addNameRange     '0.13.4',
+203 silly addNameRange     '0.13.5',
+203 silly addNameRange     '0.14.0',
+203 silly addNameRange     '1.0.0-pre1',
+203 silly addNameRange     '1.0.0-pre2',
+203 silly addNameRange     '1.0.0-pre3',
+203 silly addNameRange     '1.0.0-rc1',
+203 silly addNameRange     '1.0.0-rc2',
+203 silly addNameRange     '1.0.0-rc3',
+203 silly addNameRange     '1.0.0',
+203 silly addNameRange     '1.1.0',
+203 silly addNameRange     '1.2.0',
+203 silly addNameRange     '1.2.1',
+203 silly addNameRange     '1.2.2',
+203 silly addNameRange     '1.3.0',
+203 silly addNameRange     '1.3.2',
+203 silly addNameRange     '1.4.0',
+203 silly addNameRange     '1.4.1',
+203 silly addNameRange     '1.4.2' ] ]
+204 verbose addNamed [ 'swig', '1.4.2' ]
+205 verbose addNamed [ '1.4.2', '1.4.2' ]
+206 silly lockFile 63e83fc4-swig-1-4-2 swig@1.4.2
+207 verbose lock swig@1.4.2 /home/peng/.npm/63e83fc4-swig-1-4-2.lock
+208 http 200 https://registry.npmjs.org/chalk
+209 silly registry.get cb [ 200,
+209 silly registry.get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+209 silly registry.get     etag: '"7R7IP370JM0BVU8O383LVUHUT"',
+209 silly registry.get     'content-type': 'application/json',
+209 silly registry.get     'cache-control': 'max-age=300',
+209 silly registry.get     'content-length': '26725',
+209 silly registry.get     'accept-ranges': 'bytes',
+209 silly registry.get     date: 'Wed, 13 Jan 2016 07:15:06 GMT',
+209 silly registry.get     via: '1.1 varnish',
+209 silly registry.get     age: '182',
+209 silly registry.get     connection: 'keep-alive',
+209 silly registry.get     'x-served-by': 'cache-itm7426-ITM',
+209 silly registry.get     'x-cache': 'HIT',
+209 silly registry.get     'x-cache-hits': '8',
+209 silly registry.get     'x-timer': 'S1452669306.033834,VS0,VE0',
+209 silly registry.get     vary: 'Accept' } ]
+210 silly addNameRange number 2 { name: 'chalk', range: '>=0.5.1-0 <0.6.0-0', hasData: true }
+211 silly addNameRange versions [ 'chalk',
+211 silly addNameRange   [ '0.1.0',
+211 silly addNameRange     '0.1.1',
+211 silly addNameRange     '0.2.0',
+211 silly addNameRange     '0.2.1',
+211 silly addNameRange     '0.3.0',
+211 silly addNameRange     '0.4.0',
+211 silly addNameRange     '0.5.0',
+211 silly addNameRange     '0.5.1',
+211 silly addNameRange     '1.0.0',
+211 silly addNameRange     '1.1.0',
+211 silly addNameRange     '1.1.1' ] ]
+212 verbose addNamed [ 'chalk', '0.5.1' ]
+213 verbose addNamed [ '0.5.1', '0.5.1' ]
+214 silly lockFile c28973bb-chalk-0-5-1 chalk@0.5.1
+215 verbose lock chalk@0.5.1 /home/peng/.npm/c28973bb-chalk-0-5-1.lock
+216 silly lockFile 63e83fc4-swig-1-4-2 swig@1.4.2
+217 silly lockFile 63e83fc4-swig-1-4-2 swig@1.4.2
+218 silly lockFile e3bb3c1a-swig-1-4-2 swig@^1.4.2
+219 silly lockFile e3bb3c1a-swig-1-4-2 swig@^1.4.2
+220 silly lockFile c28973bb-chalk-0-5-1 chalk@0.5.1
+221 silly lockFile c28973bb-chalk-0-5-1 chalk@0.5.1
+222 silly lockFile 24b6c7c3-chalk-0-5-1 chalk@^0.5.1
+223 silly lockFile 24b6c7c3-chalk-0-5-1 chalk@^0.5.1
+224 http 200 https://registry.npmjs.org/moment
+225 silly registry.get cb [ 200,
+225 silly registry.get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+225 silly registry.get     etag: '"3XUM9PNE3HM56A321WUPTEGT6"',
+225 silly registry.get     'content-type': 'application/json',
+225 silly registry.get     'cache-control': 'max-age=300',
+225 silly registry.get     'content-length': '71916',
+225 silly registry.get     'accept-ranges': 'bytes',
+225 silly registry.get     date: 'Wed, 13 Jan 2016 07:15:06 GMT',
+225 silly registry.get     via: '1.1 varnish',
+225 silly registry.get     age: '0',
+225 silly registry.get     connection: 'keep-alive',
+225 silly registry.get     'x-served-by': 'cache-itm7427-ITM',
+225 silly registry.get     'x-cache': 'HIT',
+225 silly registry.get     'x-cache-hits': '1',
+225 silly registry.get     'x-timer': 'S1452669306.095490,VS0,VE184',
+225 silly registry.get     vary: 'Accept' } ]
+226 silly addNameRange number 2 { name: 'moment', range: '>=2.9.0-0 <3.0.0-0', hasData: true }
+227 silly addNameRange versions [ 'moment',
+227 silly addNameRange   [ '1.0.0',
+227 silly addNameRange     '1.0.1',
+227 silly addNameRange     '1.1.0',
+227 silly addNameRange     '1.1.1',
+227 silly addNameRange     '1.2.0',
+227 silly addNameRange     '1.3.0',
+227 silly addNameRange     '1.4.0',
+227 silly addNameRange     '1.5.0',
+227 silly addNameRange     '1.5.1',
+227 silly addNameRange     '1.6.0',
+227 silly addNameRange     '1.6.1',
+227 silly addNameRange     '1.6.2',
+227 silly addNameRange     '1.7.0',
+227 silly addNameRange     '1.7.1',
+227 silly addNameRange     '1.7.2',
+227 silly addNameRange     '2.0.0',
+227 silly addNameRange     '2.1.0',
+227 silly addNameRange     '2.2.1',
+227 silly addNameRange     '2.3.0',
+227 silly addNameRange     '2.3.1',
+227 silly addNameRange     '2.4.0',
+227 silly addNameRange     '2.5.0',
+227 silly addNameRange     '2.5.1',
+227 silly addNameRange     '2.6.0',
+227 silly addNameRange     '2.7.0',
+227 silly addNameRange     '2.8.1',
+227 silly addNameRange     '2.8.2',
+227 silly addNameRange     '2.8.3',
+227 silly addNameRange     '2.8.4',
+227 silly addNameRange     '2.9.0',
+227 silly addNameRange     '2.10.2',
+227 silly addNameRange     '2.10.3',
+227 silly addNameRange     '2.10.5',
+227 silly addNameRange     '2.10.6',
+227 silly addNameRange     '2.11.0',
+227 silly addNameRange     '2.11.1' ] ]
+228 verbose addNamed [ 'moment', '2.11.1' ]
+229 verbose addNamed [ '2.11.1', '2.11.1' ]
+230 silly lockFile deed4286-moment-2-11-1 moment@2.11.1
+231 verbose lock moment@2.11.1 /home/peng/.npm/deed4286-moment-2-11-1.lock
+232 silly lockFile ef645390-mjs-org-moment-moment-2-11-1-tgz https://registry.npmjs.org/moment/-/moment-2.11.1.tgz
+233 verbose lock https://registry.npmjs.org/moment/-/moment-2.11.1.tgz /home/peng/.npm/ef645390-mjs-org-moment-moment-2-11-1-tgz.lock
+234 verbose addRemoteTarball [ 'https://registry.npmjs.org/moment/-/moment-2.11.1.tgz',
+234 verbose addRemoteTarball   'bf4026413640d1b802467cf353607f8464d6af47' ]
+235 info retry fetch attempt 1 at 15:15:06
+236 verbose fetch to= /tmp/npm-24170-jYPZohrU/registry.npmjs.org/moment/-/moment-2.11.1.tgz
+237 http GET https://registry.npmjs.org/moment/-/moment-2.11.1.tgz
+238 http 200 https://registry.npmjs.org/moment/-/moment-2.11.1.tgz
+239 silly lockFile ef645390-mjs-org-moment-moment-2-11-1-tgz https://registry.npmjs.org/moment/-/moment-2.11.1.tgz
+240 silly lockFile ef645390-mjs-org-moment-moment-2-11-1-tgz https://registry.npmjs.org/moment/-/moment-2.11.1.tgz
+241 silly lockFile deed4286-moment-2-11-1 moment@2.11.1
+242 silly lockFile deed4286-moment-2-11-1 moment@2.11.1
+243 silly lockFile 626a7352-moment-2-9-0 moment@^2.9.0
+244 silly lockFile 626a7352-moment-2-9-0 moment@^2.9.0
+245 verbose about to build /home/peng/Blog/node_modules/hexo-deployer-heroku
+246 verbose node_modules/hexo-deployer-heroku unbuild
+247 info preuninstall hexo-deployer-heroku@0.0.3
+248 info uninstall hexo-deployer-heroku@0.0.3
+249 verbose true,/home/peng/Blog/node_modules,/home/peng/Blog/node_modules unbuild hexo-deployer-heroku@0.0.3
+250 info postuninstall hexo-deployer-heroku@0.0.3
+251 error Error: EACCES, mkdir '/home/peng/.npm/moment/2.11.1'
+251 error  { [Error: EACCES, mkdir '/home/peng/.npm/moment/2.11.1']
+251 error   errno: 3,
+251 error   code: 'EACCES',
+251 error   path: '/home/peng/.npm/moment/2.11.1',
+251 error   parent: 'hexo-deployer-heroku' }
+252 error Please try running this command again as root/Administrator.
+253 error System Linux 4.2.0-16-generic
+254 error command "/usr/bin/nodejs" "/usr/bin/npm" "install" "hexo-deployer-heroku" "--save"
+255 error cwd /home/peng/Blog/source
+256 error node -v v0.10.25
+257 error npm -v 1.4.21
+258 error path /home/peng/.npm/moment/2.11.1
+259 error code EACCES
+260 error errno 3
+261 error stack Error: EACCES, mkdir '/home/peng/.npm/moment/2.11.1'
+262 verbose exit [ 3, true ]
